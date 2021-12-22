@@ -1,0 +1,518 @@
+{
+    "products": [
+      {
+        "_id": "01",
+        "name": "Sandwich Jamon",
+        "price": 10,
+        "image": "https://i.ibb.co/qW0DsLr/sandwich.png",
+        "type": "Sandwich",
+        "dateEntry": "2021-26-11"
+      },
+      {
+        "_id": "02",
+        "name": "Sandwich Pollo",
+        "price": 15,
+        "image": "https://i.ibb.co/qW0DsLr/sandwich.png",
+        "type": "Sandwich",
+        "dateEntry": "2021-26-11"
+      },
+      {
+        "_id": "03",
+        "name": "Café Americano",
+        "price": 5,
+        "image": "https://i.ibb.co/symtb8S/coffee.png",
+        "type": "Bebida",
+        "dateEntry": "2021-26-11"
+      },
+      {
+        "_id": "04",
+        "name": "Café con leche",
+        "price": 7,
+        "image": "https://i.ibb.co/zPWrW78/coffee-mug.png",
+        "type": "Bebida",
+        "dateEntry": "2021-26-11"
+      },
+      {
+        "_id": "05",
+        "name": "Jugo de frutas",
+        "price": 7,
+        "image": "https://i.ibb.co/L1JnkYk/orange-juice-1.png",
+        "type": "Bebida",
+        "dateEntry": "2021-26-11"
+      },
+      {
+        "_id": "06",
+        "name": "Burger Sencilla",
+        "price": 10,
+        "image": "https://i.ibb.co/XjyPggL/hamburguesa.png",
+        "type": "Hamburguesas",
+        "dateEntry": "2021-26-11"
+      },
+      {
+        "_id": "07",
+        "name": "Burger Doble",
+        "price": 15,
+        "image": "https://i.ibb.co/j50dVg3/hamburgesa-doble.png",
+        "type": "Hamburguesas",
+        "dateEntry": "2021-26-11"
+      },
+      {
+        "_id": "08",
+        "name": "Papas fritas",
+        "price": 5,
+        "image": "https://i.ibb.co/tBPkSfv/papitas.png",
+        "type": "Acompañamiento",
+        "dateEntry": "2021-26-11"
+      },
+      {
+        "_id": "09",
+        "name": "Aros de cebolla",
+        "price": 5,
+        "image": "https://i.ibb.co/4pkRn05/aros-cebolla.png",
+        "type": "Acompañamiento",
+        "dateEntry": "2021-26-11"
+      },
+      {
+        "_id": "10",
+        "name": "Agua 500ml",
+        "price": 5,
+        "image": "https://i.ibb.co/L6T0kRd/agua-500.png",
+        "type": "Bebidas",
+        "dateEntry": "2021-26-11"
+      },
+      {
+        "_id": "11",
+        "name": "Agua 750ml",
+        "price": 7,
+        "image": "https://i.ibb.co/GTgSWK0/agua-750.png",
+        "type": "Bebidas",
+        "dateEntry": "2021-26-11"
+      },
+      {
+        "_id": "12",
+        "name": "Gaseosa 500ml",
+        "price": 7,
+        "image": "https://i.ibb.co/qyz2jCN/soda-500.png",
+        "type": "Bebidas",
+        "dateEntry": "2021-26-11"
+      },
+      {
+        "_id": "13",
+        "name": "Gaseosa 750ml",
+        "price": 10,
+        "image": "https://i.ibb.co/J52gRfg/soda-750.png",
+        "type": "Bebidas",
+        "dateEntry": "2021-26-11"
+      }
+    ],
+    "orders": [
+      {
+        "_id": "",
+        "userId": "",
+        "status": "delivering",
+        "dateEntry": "2021-12-07T21:04:15.468Z",
+        "client": "isa",
+        "products": [
+          {
+            "_id": "01",
+            "name": "Sandwich Jamon",
+            "price": 10,
+            "image": "https://i.ibb.co/qW0DsLr/sandwich.png",
+            "type": "Sandwich",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          },
+          {
+            "_id": "04",
+            "name": "Café con leche",
+            "price": 7,
+            "image": "https://i.ibb.co/zPWrW78/coffee-mug.png",
+            "type": "Bebida",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          },
+          {
+            "_id": "03",
+            "name": "Café Americano",
+            "price": 5,
+            "image": "https://i.ibb.co/symtb8S/coffee.png",
+            "type": "Bebida",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          }
+        ],
+        "id": 1,
+        "deliveringTime": "2021-12-14T01:59:56.072Z",
+        "dateProcessed": "2021-12-16T16:24:39.266Z"
+      },
+      {
+        "_id": "",
+        "userId": "",
+        "status": "delivered",
+        "dateEntry": "2021-12-08T16:55:43.343Z",
+        "client": "isa",
+        "products": [
+          {
+            "_id": "02",
+            "name": "Sandwich Pollo",
+            "price": 15,
+            "image": "https://i.ibb.co/qW0DsLr/sandwich.png",
+            "type": "Sandwich",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          },
+          {
+            "_id": "10",
+            "name": "Agua 500ml",
+            "price": 5,
+            "image": "https://i.ibb.co/L6T0kRd/agua-500.png",
+            "type": "Bebidas",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          }
+        ],
+        "id": 2,
+        "deliveringTime": "2021-12-14T01:59:56.081Z",
+        "dateProcessed": "2021-12-16T17:22:35.069Z"
+      },
+      {
+        "_id": "",
+        "userId": "",
+        "status": "delivered",
+        "dateEntry": "2021-12-13T15:46:13.256Z",
+        "client": "lidia",
+        "products": [
+          {
+            "_id": "01",
+            "name": "Sandwich Jamon",
+            "price": 10,
+            "image": "https://i.ibb.co/qW0DsLr/sandwich.png",
+            "type": "Sandwich",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          },
+          {
+            "_id": "03",
+            "name": "Café Americano",
+            "price": 5,
+            "image": "https://i.ibb.co/symtb8S/coffee.png",
+            "type": "Bebida",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          },
+          {
+            "_id": "04",
+            "name": "Café con leche",
+            "price": 7,
+            "image": "https://i.ibb.co/zPWrW78/coffee-mug.png",
+            "type": "Bebida",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          },
+          {
+            "_id": "05",
+            "name": "Jugo de frutas",
+            "price": 7,
+            "image": "https://i.ibb.co/L1JnkYk/orange-juice-1.png",
+            "type": "Bebida",
+            "dateEntry": "2021-26-11",
+            "qty": 2
+          }
+        ],
+        "id": 3,
+        "deliveringTime": "2021-12-14T01:59:56.104Z",
+        "dateProcessed": "2021-12-16T23:45:36.576Z"
+      },
+      {
+        "_id": "",
+        "userId": "",
+        "status": "delivered",
+        "dateEntry": "2021-12-16T17:18:00.317Z",
+        "client": "lidia",
+        "products": [
+          {
+            "_id": "02",
+            "name": "Sandwich Pollo",
+            "price": 15,
+            "image": "https://i.ibb.co/qW0DsLr/sandwich.png",
+            "type": "Sandwich",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          },
+          {
+            "_id": "10",
+            "name": "Agua 500ml",
+            "price": 5,
+            "image": "https://i.ibb.co/L6T0kRd/agua-500.png",
+            "type": "Bebidas",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          },
+          {
+            "_id": "11",
+            "name": "Agua 750ml",
+            "price": 7,
+            "image": "https://i.ibb.co/GTgSWK0/agua-750.png",
+            "type": "Bebidas",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          }
+        ],
+        "id": 4,
+        "dateProcessed": "2021-12-16T23:45:33.234Z"
+      },
+      {
+        "_id": "",
+        "userId": "",
+        "status": "delivered",
+        "dateEntry": "2021-12-16T17:24:36.658Z",
+        "client": "anita",
+        "products": [
+          {
+            "_id": "08",
+            "name": "Papas fritas",
+            "price": 5,
+            "image": "https://i.ibb.co/tBPkSfv/papitas.png",
+            "type": "Acompañamiento",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          },
+          {
+            "_id": "06",
+            "name": "Burger Sencilla",
+            "price": 10,
+            "image": "https://i.ibb.co/XjyPggL/hamburguesa.png",
+            "type": "Hamburguesas",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          },
+          {
+            "_id": "12",
+            "name": "Gaseosa 500ml",
+            "price": 7,
+            "image": "https://i.ibb.co/qyz2jCN/soda-500.png",
+            "type": "Bebidas",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          }
+        ],
+        "id": 5,
+        "dateProcessed": "2021-12-16T17:58:42.864Z"
+      },
+      {
+        "_id": "",
+        "userId": "",
+        "status": "delivered",
+        "dateEntry": "2021-12-16T17:38:01.957Z",
+        "client": "anitaaaa",
+        "products": [
+          {
+            "_id": "01",
+            "name": "Sandwich Jamon",
+            "price": 10,
+            "image": "https://i.ibb.co/qW0DsLr/sandwich.png",
+            "type": "Sandwich",
+            "dateEntry": "2021-26-11",
+            "qty": 2
+          },
+          {
+            "_id": "05",
+            "name": "Jugo de frutas",
+            "price": 7,
+            "image": "https://i.ibb.co/L1JnkYk/orange-juice-1.png",
+            "type": "Bebida",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          }
+        ],
+        "id": 6,
+        "dateProcessed": "2021-12-16T17:58:01.005Z"
+      },
+      {
+        "_id": "",
+        "userId": "",
+        "status": "delivering",
+        "dateEntry": "2021-12-16T23:45:40.397Z",
+        "client": "oswal",
+        "products": [
+          {
+            "_id": "02",
+            "name": "Sandwich Pollo",
+            "price": 15,
+            "image": "https://i.ibb.co/qW0DsLr/sandwich.png",
+            "type": "Sandwich",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          },
+          {
+            "_id": "04",
+            "name": "Café con leche",
+            "price": 7,
+            "image": "https://i.ibb.co/zPWrW78/coffee-mug.png",
+            "type": "Bebida",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          }
+        ],
+        "id": 7,
+        "dateProcessed": "2021-12-16T23:47:11.466Z"
+      },
+      {
+        "_id": "",
+        "userId": "",
+        "status": "pending",
+        "dateEntry": "2021-12-16T23:47:38.358Z",
+        "client": "Ana",
+        "products": [
+          {
+            "_id": "07",
+            "name": "Burger Doble",
+            "price": 15,
+            "image": "https://i.ibb.co/j50dVg3/hamburgesa-doble.png",
+            "type": "Hamburguesas",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          },
+          {
+            "_id": "08",
+            "name": "Papas fritas",
+            "price": 5,
+            "image": "https://i.ibb.co/tBPkSfv/papitas.png",
+            "type": "Acompañamiento",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          }
+        ],
+        "id": 8
+      },
+      {
+        "_id": "",
+        "userId": "",
+        "status": "pending",
+        "dateEntry": "2021-12-22T02:09:22.352Z",
+        "client": "alfredo",
+        "products": [
+          {
+            "_id": "02",
+            "name": "Sandwich Pollo",
+            "price": 15,
+            "image": "https://i.ibb.co/qW0DsLr/sandwich.png",
+            "type": "Sandwich",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          },
+          {
+            "_id": "04",
+            "name": "Café con leche",
+            "price": 7,
+            "image": "https://i.ibb.co/zPWrW78/coffee-mug.png",
+            "type": "Bebida",
+            "dateEntry": "2021-26-11",
+            "qty": 1
+          }
+        ],
+        "id": 9
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "email": "juanita@burgerqueen.com",
+        "name": "Juanita",
+        "password": "12345678",
+        "role": {
+          "admin": false,
+          "waiter": true,
+          "kitchen": false
+        }
+      },
+      {
+        "id": 2,
+        "email": "panchito-c@burgerqueen.com",
+        "name": "Panchito",
+        "password": "123456",
+        "role": {
+          "admin": false,
+          "waiter": false,
+          "kitchen": true
+        }
+      },
+      {
+        "id": 3,
+        "email": "admin@burgerqueen.com",
+        "name": "Ruby",
+        "password": "1234567",
+        "role": {
+          "admin": true,
+          "waiter": false,
+          "kitchen": false
+        }
+      },
+      {
+        "email": "isa@bqc.com",
+        "name": "isa",
+        "password": "1234567",
+        "role": {
+          "admin": false,
+          "waiter": true,
+          "kitchen": false
+        },
+        "id": 4
+      },
+      {
+        "email": "lidia@bqc.com",
+        "name": "lidia",
+        "password": "12345678",
+        "role": {
+          "admin": false,
+          "waiter": true,
+          "kitchen": false
+        },
+        "id": 5
+      },
+      {
+        "email": "lidia2@bqc.com",
+        "name": "lidia2",
+        "password": "1234567",
+        "role": {
+          "admin": false,
+          "waiter": false,
+          "kitchen": true
+        },
+        "id": 6
+      },
+      {
+        "email": "isa2@bqc.com",
+        "name": "isa2",
+        "password": "123456789",
+        "role": {
+          "admin": true,
+          "waiter": false,
+          "kitchen": false
+        },
+        "id": 7
+      },
+      {
+        "email": "ahri@bqc.com",
+        "name": "ahri",
+        "password": "123456789",
+        "role": {
+          "admin": false,
+          "waiter": true,
+          "kitchen": false
+        },
+        "id": 8
+      },
+      {
+        "email": "venus@bqc.com",
+        "name": "venus",
+        "password": "1234567",
+        "role": {
+          "admin": false,
+          "waiter": false,
+          "kitchen": true
+        },
+        "id": 9
+      }
+    ]
+  }
